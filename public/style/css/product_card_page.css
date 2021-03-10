@@ -1,0 +1,140 @@
+.product-card {
+  margin-top: 108px;
+  margin-bottom: 225px;
+  color: #ffffff;
+}
+
+.product-card__main-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card__main-block img {
+  padding-left: 73px;
+}
+
+.poduct-card__info {
+  width: 51%;
+}
+
+.product-card__title {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #aea9a9;
+}
+
+.product-card__sizes {
+  padding: 116px 0;
+  font-size: 18px;
+}
+
+.product-card__sizes__title {
+  padding-bottom: 22px;
+}
+
+.product-card__sizes__items {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.product-card__sizes__item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+}
+
+.product-card__sizes__item a {
+  text-decoration: none;
+  color: var(--text-color-white);
+}
+
+.one-size--box-size {
+  width: 100px;
+}
+
+.product-card__sizes__item:hover {
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.product-card__title,
+.product-card__price {
+  font-size: 35px;
+}
+
+.product-card__price-chart-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #aea9a9;
+}
+
+.btn__add-to-chart {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 47px;
+  width: 254px;
+  padding: 0;
+  background: none;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.76);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-right: 130px;
+}
+
+.btn__add-to-chart a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.product-card__bottom-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 225px;
+  line-height: 170%;
+}
+
+.product-card__description {
+  width: 49%;
+}
+
+.product-card__description__title {
+  font-size: 18px;
+  padding-bottom: 67px;
+}
+
+.product-card__description__article {
+  font-size: 14px;
+  border-collapse: collapse;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+}
+
+.product-card__description__article,
+.product-card__description__more {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  padding: 20px 0;
+}
+
+.product-card__delivery {
+  width: 49%;
+}
+
+.product-card__delivery__title {
+  font-size: 18px;
+  padding-bottom: 45px;
+}
+
+.product-card__delivery__text {
+  padding-bottom: 20px;
+}

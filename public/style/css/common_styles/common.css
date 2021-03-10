@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--grey-bg);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

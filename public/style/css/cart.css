@@ -1,0 +1,114 @@
+.cart-section {
+  color: var(--text-color-white);
+  min-height: calc(100vh - 417px);
+}
+
+.cart-section__title {
+  padding-top: 108px;
+  padding-bottom: 41px;
+  font-size: 35px;
+}
+
+.cart-section__goods-table {
+  width: 67.6%;
+  margin-bottom: 82px;
+  text-align: center;
+  color: var(--text-color-white);
+  border-collapse: collapse;
+}
+
+.cart-section__goods-table__column-titles th {
+  padding-bottom: 13px;
+  font-size: 22px;
+  font-weight: 400;
+  border-bottom: 1px solid #ffffff;
+}
+
+.cart-section__goods-table__column-titles th:first-child {
+  text-align: left;
+}
+
+.cart-section__goods-table__good-item {
+  height: 130px;
+  border-bottom: 1px solid #aea9a9;
+}
+
+.cart-section__goods-table__good-item span {
+  padding: 0 17px;
+}
+
+.cart-section__goods-table__good-item td {
+  padding: 15px 0;
+}
+
+.cart-section__goods-table__good-item td:first-child {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.cart-section__goods-table__good-item td:last-child {
+  padding-right: 15px;
+}
+
+.cart-section__receipt-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 940px;
+}
+
+.cart-section__receipt-wrapper__fixed {
+  position: absolute;
+  left: 750px;
+}
+
+.cart-section__receipt {
+  display: block;
+  position: fixed;
+  height: 249px;
+  width: 294px;
+  top: 230px;
+  background-color: var(--grey-bg);
+  border: 1px solid #ffffff;
+}
+
+.cart-section__receipt-title {
+  font-size: 22px;
+  padding-top: 14px;
+  padding-left: 17px;
+}
+
+.cart-section__recepit-content {
+  padding: 24px 17px 28px;
+  font-size: 18px;
+}
+
+.cart-section__receipt-content__line {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 11px;
+}
+
+.cart-section__receipt-content__line:last-child {
+  padding-top: 21px;
+}
+
+.cart-section__place-order__btn {
+  display: inline-flex;
+  position: absolute;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  height: 47px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  border-collapse: collapse;
+  text-decoration: none;
+  font-size: 18px;
+  color: #91959e;
+  background-color: #ffffff;
+  cursor: pointer;
+}
