@@ -1,3 +1,3 @@
 # Bolce Pananna
 
-Clothes store
+Первый учебный проект на mvc архитектуре c самописным движком
